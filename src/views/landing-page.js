@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
+import React, { Component } from "react";
+import referlist from "referlist";
 
 import OutlineButtonColour from '../components/outline-button-colour'
 import projectStyles from '../style.module.css'
@@ -63,6 +65,22 @@ const LandingPage = () => {
             </span>
           </span>
         </div>
+        
+function Signup{
+  useEffect(() => {
+    referlist.initialize({ domain: 'healzier' });
+  }, []);
+
+  render() {
+    return (
+      <div>
+        <input type="text" id="referlistemail" />
+        <input type="button" id="referlistbutton" value="Join waitlist" />
+      </div>
+    );
+  }
+}
+
         <div className={styles['container02']}>
           <OutlineButtonColour
             button="Join the Waitlist"
@@ -164,4 +182,5 @@ const LandingPage = () => {
   )
 }
 
+export default Signup;
 export default LandingPage
