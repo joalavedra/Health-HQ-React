@@ -11,7 +11,7 @@ function Signup{
   useEffect(() => {
     referlist.initialize({ domain: 'healzier' });
   }, []);
-
+}
 
 const LandingPage = () => {
   return (
