@@ -8,6 +8,12 @@ import OutlineButtonColour from '../components/outline-button-colour'
 import projectStyles from '../style.module.css'
 import styles from './landing-page.module.css'
 
+function Signup{
+  useEffect(() => {
+    referlist.initialize({ domain: 'healzier' });
+  }, []);
+
+
 const LandingPage = () => {
   return (
     <div className={styles['container']}>
@@ -65,22 +71,10 @@ const LandingPage = () => {
             </span>
           </span>
         </div>
-        
-function Signup{
-  useEffect(() => {
-    referlist.initialize({ domain: 'healzier' });
-  }, []);
-
-  render() {
-    return (
-      <div>
+        <div>
         <input type="text" id="referlistemail" />
         <input type="button" id="referlistbutton" value="Join waitlist" />
-      </div>
-    );
-  }
-}
-
+        </div>
         <div className={styles['container02']}>
           <OutlineButtonColour
             button="Join the Waitlist"
