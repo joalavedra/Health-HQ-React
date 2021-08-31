@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  position: relative;
+}
+.button {
+  color: var(--dl-color-gray-white);
+  align-self: flex-start;
+  box-shadow: 1px 1px 5px 0px #08173f;
+  text-align: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #3b64e6;
+}
+.rootClassName {
+  align-self: center;
+}
+.rootClassName1 {
+  align-self: center;
+}
+@media(max-width: 479px) {
+  .rootClassName {
+    width: 100%;
+  }
+  .rootClassName1 {
+    width: 100%;
+  }
+}

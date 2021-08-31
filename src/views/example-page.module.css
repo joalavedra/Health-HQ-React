@@ -1,0 +1,51 @@
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-color: #161212;
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
+}
+.container1 {
+  width: 622px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  flex: 0 0 auto;
+  width: 650px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.container3 {
+  flex: 0 0 auto;
+  width: 650px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+@media(max-width: 479px) {
+  .container1 {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

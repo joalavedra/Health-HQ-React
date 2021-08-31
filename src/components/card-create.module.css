@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.container1 {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #525252;
+}
+.container2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+}
+.rootClassName {
+  align-self: flex-start;
+}
+
+@media(max-width: 767px) {
+  .container {
+    width: 200px;
+  }
+}
+@media(max-width: 479px) {
+  .container {
+    width: 300px;
+  }
+}

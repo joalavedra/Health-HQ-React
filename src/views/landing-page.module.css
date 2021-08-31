@@ -1,0 +1,589 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.Header {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.Image {
+  width: 154px;
+  height: 71px;
+  object-fit: cover;
+}
+.Hero {
+  width: 100%;
+  height: 873px;
+  margin: 10px;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  padding-top: 48px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: center;
+  background-color: #000000;
+}
+.container01 {
+  height: 264px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  color: #ffffff;
+  width: 895px;
+  margin: 10px;
+  font-size: 3.5em;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.text01 {
+  text-align: center;
+}
+.text02 {
+  text-align: center;
+}
+.text03 {
+  color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.container02 {
+  width: auto;
+  margin: 20px;
+  display: flex;
+  padding: 10px;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container03 {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.image1 {
+  height: 504px;
+  object-fit: cover;
+}
+.container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Steps {
+  width: 100%;
+  height: 246px;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+}
+.container05 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.Step {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icon {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.container06 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.text08 {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text10 {
+  color: #a8a8a8;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.Step1 {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icon2 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.container07 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.text12 {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+.text14 {
+  color: #a8a8a8;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.Step2 {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icon4 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.container08 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.text17 {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text18 {
+  color: #a8a8a8;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.Step3 {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.icon7 {
+  fill: var(--dl-color-gray-500);
+  width: 24px;
+  height: 24px;
+}
+.container09 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.text21 {
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.text23 {
+  color: #a8a8a8;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.Footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+}
+.container10 {
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Nav {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.link {
+  color: #ffffff;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .Hero {
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .container01 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .text {
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .text03 {
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-unit);
+    text-align: center;
+  }
+  .image1 {
+    width: 693px;
+    height: 443px;
+  }
+  .container04 {
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-unit);
+  }
+  .Steps {
+    width: 970px;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .container05 {
+    width: 970px;
+    margin: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .Header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .Hero {
+    height: 743px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .container01 {
+    height: 436px;
+  }
+  .text {
+    width: 486px;
+  }
+  .text03 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .image1 {
+    width: 615px;
+    height: 378px;
+  }
+  .Steps {
+    width: 638px;
+    height: 502px;
+    padding: 32px;
+  }
+  .container05 {
+    width: auto;
+    align-items: flex-start;
+    padding-left: 0px;
+    flex-direction: column;
+  }
+  .Step {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container06 {
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text08 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text10 {
+    text-align: left;
+  }
+  .Step1 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container07 {
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text12 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text14 {
+    text-align: left;
+  }
+  .Step2 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container08 {
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text17 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text18 {
+    text-align: left;
+  }
+  .Step3 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container09 {
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text21 {
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .text23 {
+    text-align: left;
+  }
+  .Footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .Header {
+    height: 48px;
+    padding: var(--dl-space-space-unit);
+  }
+  .Image {
+    height: 53px;
+  }
+  .Hero {
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 0px;
+  }
+  .container01 {
+    width: 100%;
+    height: auto;
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-halfunit);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .text {
+    width: auto;
+    padding: 0px;
+    font-size: 3em;
+    font-style: normal;
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .text03 {
+    margin: var(--dl-space-space-halfunit);
+    padding: 0px;
+    text-align: left;
+  }
+  .container02 {
+    width: 100%;
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-halfunit);
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .container03 {
+    margin: var(--dl-space-space-halfunit);
+  }
+  .image1 {
+    width: 478px;
+    height: 335px;
+    align-self: center;
+  }
+  .container04 {
+    height: 490px;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .Steps {
+    height: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .container05 {
+    width: 454px;
+    height: 470px;
+    padding: var(--dl-space-space-halfunit);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Step {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container06 {
+    padding: var(--dl-space-space-halfunit);
+    align-items: center;
+  }
+  .text08 {
+    width: 201px;
+    margin: 0px;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .text10 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .Step1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container07 {
+    padding: var(--dl-space-space-halfunit);
+    align-items: center;
+  }
+  .text12 {
+    padding: var(--dl-space-space-halfunit);
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .text14 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .Step2 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container08 {
+    padding: var(--dl-space-space-halfunit);
+    align-items: center;
+  }
+  .text17 {
+    margin: 0px;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .text18 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .Step3 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container09 {
+    padding: var(--dl-space-space-halfunit);
+    align-items: center;
+  }
+  .text21 {
+    margin: 0px;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .text23 {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .Footer {
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-unit);
+  }
+  .link {
+    color: #b5b5b5;
+    font-size: 12px;
+  }
+}

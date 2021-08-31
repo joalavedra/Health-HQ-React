@@ -1,0 +1,17 @@
+.container {
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  color: #ffffff;
+  width: 250px;
+  height: 34px;
+  text-align: center;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #000000;
+}
